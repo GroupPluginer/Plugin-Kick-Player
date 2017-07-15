@@ -1,6 +1,6 @@
-  <?php
+<?php
 
- namespace PlayerKick;
+namespace PlayerKick;
  
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
