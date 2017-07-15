@@ -10,7 +10,7 @@ use pocketmine\text\TextFormat as Color;
 class Main extends PluginBase implements Listener{
 
 public function onEnable(){
-$this->getServer()->getPluginManager()->registerEvent($this, $this);
+$this->getServer()->getPluginManager()->registerEvents($this, $this);
  }
 
 public function onKick(PlayerKickEvent $event){
