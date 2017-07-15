@@ -13,9 +13,10 @@ public function onEnable(){
 $this->getServer()->getPluginManager()->registerEvents($this, $this);
  }
 
-public function onKick(PlayerKickEvent $event){
-$player = $event->getPlayer();
-$name = $event->getName();
-  $player->setKickMessage(Color::RED."ﺮﻓﺮﻴﺴﻟﺍ ﺮﻣﺍﻭﺍ ﻞﺒﻘﺗ ﻡﺪﻌﻟ ﻦﻣﺩﻻﺍ ﻞﺒﻗ ﻦﻣ ﻙﺩﺮﻃ ﻢﺗ ﺪﻘﻟ");
- }
+ public function onKick(PlayerKickEvent $event){
+ $player = $event->getPlayer();
+ $name = $event->getName();
+  
+   $player->setKickMessage(Color::RED."ﺮﻓﺮﻴﺴﻟﺍ ﺮﻣﺍﻭﺍ ﻞﺒﻘﺗ ﻡﺪﻌﻟ ﻦﻣﺩﻻﺍ ﻞﺒﻗ ﻦﻣ ﻙﺩﺮﻃ ﻢﺗ ﺪﻘﻟ");
+  }
 }
