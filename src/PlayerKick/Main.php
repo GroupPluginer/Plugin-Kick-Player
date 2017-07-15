@@ -3,7 +3,7 @@
  namespace PlayerKick;
  
 use pocketmine\plugin\PluginBase;
-use pocketmine\event\Listener
+use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerKickEvent;
 use pocketmine\text\TextFormat as Color;
 
